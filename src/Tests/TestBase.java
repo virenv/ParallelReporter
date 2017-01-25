@@ -18,13 +18,13 @@ public class TestBase {
 	}
 	
 	@BeforeMethod
-	public void methodSetup(Method caller)
+	public synchronized void methodSetup(Method caller)
 	{
 		testReporter.startTest(getTestName(caller), getTestDescription(caller));
 	}
 	
 	@AfterMethod
-	public void afterMethod()
+	public synchronized void afterMethod()
 	{
 		testReporter.endTest();
 		Reporter.flushReport();

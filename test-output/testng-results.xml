@@ -2,38 +2,16 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="109" started-at="2017-01-25T19:28:21Z" finished-at="2017-01-25T19:28:21Z">
+  <suite name="Suite1" duration-ms="1450" started-at="2017-01-25T19:36:12Z" finished-at="2017-01-25T19:36:14Z">
     <groups>
     </groups>
-    <test name="Parallel runs" duration-ms="109" started-at="2017-01-25T19:28:21Z" finished-at="2017-01-25T19:28:21Z">
+    <test name="Parallel runs" duration-ms="1450" started-at="2017-01-25T19:36:12Z" finished-at="2017-01-25T19:36:14Z">
       <class name="Tests.Test001">
-        <test-method status="PASS" signature="classSetUp()[pri:0, instance:Tests.Test001@6d00a15d]" name="classSetUp" is-config="true" duration-ms="21" started-at="2017-01-26T00:58:21Z" finished-at="2017-01-26T00:58:21Z">
+        <test-method status="PASS" signature="classSetUp()[pri:0, instance:Tests.Test001@6d00a15d]" name="classSetUp" is-config="true" duration-ms="32" started-at="2017-01-26T01:06:12Z" finished-at="2017-01-26T01:06:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classSetUp -->
-        <test-method status="PASS" signature="methodSetup(java.lang.reflect.Method)[pri:0, instance:Tests.Test001@6d00a15d]" name="methodSetup" is-config="true" duration-ms="8" started-at="2017-01-26T00:58:21Z" finished-at="2017-01-26T00:58:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Tests.Test001.Test2()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodSetup -->
-        <test-method status="PASS" signature="methodSetup(java.lang.reflect.Method)[pri:0, instance:Tests.Test001@6d00a15d]" name="methodSetup" is-config="true" duration-ms="8" started-at="2017-01-26T00:58:21Z" finished-at="2017-01-26T00:58:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Tests.Test001.Test1()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodSetup -->
-        <test-method status="PASS" signature="methodSetup(java.lang.reflect.Method)[pri:0, instance:Tests.Test001@6d00a15d]" name="methodSetup" is-config="true" duration-ms="8" started-at="2017-01-26T00:58:21Z" finished-at="2017-01-26T00:58:21Z">
+        <test-method status="PASS" signature="methodSetup(java.lang.reflect.Method)[pri:0, instance:Tests.Test001@6d00a15d]" name="methodSetup" is-config="true" duration-ms="10" started-at="2017-01-26T01:06:12Z" finished-at="2017-01-26T01:06:12Z">
           <params>
             <param index="0">
               <value>
@@ -44,27 +22,49 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodSetup -->
-        <test-method status="PASS" signature="Test2()[pri:0, instance:Tests.Test001@6d00a15d]" name="Test2" duration-ms="25" started-at="2017-01-26T00:58:21Z" description="This is test02" finished-at="2017-01-26T00:58:21Z">
+        <test-method status="PASS" signature="methodSetup(java.lang.reflect.Method)[pri:0, instance:Tests.Test001@6d00a15d]" name="methodSetup" is-config="true" duration-ms="10" started-at="2017-01-26T01:06:12Z" finished-at="2017-01-26T01:06:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.Test001.Test2()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test2 -->
-        <test-method status="PASS" signature="Test1()[pri:0, instance:Tests.Test001@6d00a15d]" name="Test1" duration-ms="19" started-at="2017-01-26T00:58:21Z" description="This is test01" finished-at="2017-01-26T00:58:21Z">
+        </test-method> <!-- methodSetup -->
+        <test-method status="PASS" signature="methodSetup(java.lang.reflect.Method)[pri:0, instance:Tests.Test001@6d00a15d]" name="methodSetup" is-config="true" duration-ms="8" started-at="2017-01-26T01:06:12Z" finished-at="2017-01-26T01:06:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Tests.Test001.Test1()]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test1 -->
-        <test-method status="PASS" signature="Test3()[pri:0, instance:Tests.Test001@6d00a15d]" name="Test3" duration-ms="16" started-at="2017-01-26T00:58:21Z" description="This is test03" finished-at="2017-01-26T00:58:21Z">
+        </test-method> <!-- methodSetup -->
+        <test-method status="PASS" signature="Test3()[pri:0, instance:Tests.Test001@6d00a15d]" name="Test3" duration-ms="36" started-at="2017-01-26T01:06:12Z" description="This is test03" finished-at="2017-01-26T01:06:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test3 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Tests.Test001@6d00a15d]" name="afterMethod" is-config="true" duration-ms="12" started-at="2017-01-26T00:58:21Z" finished-at="2017-01-26T00:58:21Z">
+        <test-method status="PASS" signature="Test2()[pri:0, instance:Tests.Test001@6d00a15d]" name="Test2" duration-ms="62" started-at="2017-01-26T01:06:12Z" description="This is test02" finished-at="2017-01-26T01:06:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:Tests.Test001@6d00a15d]" name="Test1" duration-ms="27" started-at="2017-01-26T01:06:12Z" description="This is test01" finished-at="2017-01-26T01:06:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Tests.Test001@6d00a15d]" name="afterMethod" is-config="true" duration-ms="926" started-at="2017-01-26T01:06:12Z" finished-at="2017-01-26T01:06:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Tests.Test001@6d00a15d]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-01-26T00:58:21Z" finished-at="2017-01-26T00:58:21Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Tests.Test001@6d00a15d]" name="afterMethod" is-config="true" duration-ms="1313" started-at="2017-01-26T01:06:12Z" finished-at="2017-01-26T01:06:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Tests.Test001@6d00a15d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-01-26T00:58:21Z" finished-at="2017-01-26T00:58:21Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Tests.Test001@6d00a15d]" name="afterMethod" is-config="true" duration-ms="1125" started-at="2017-01-26T01:06:12Z" finished-at="2017-01-26T01:06:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
