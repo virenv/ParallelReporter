@@ -1,4 +1,4 @@
-= ParallelReporter
+# ParallelReporter
 
 To run this project, add these 3 .jar files to your classpath:
 extentreports-2.41.2.jar
