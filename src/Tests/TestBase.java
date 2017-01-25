@@ -27,6 +27,7 @@ public class TestBase {
 	public void afterMethod()
 	{
 		testReporter.endTest();
+		Reporter.flushReport();
 	}
 
 	private String getTestName(Method caller)

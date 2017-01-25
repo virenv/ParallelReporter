@@ -6,11 +6,9 @@ import com.relevantcodes.extentreports.DisplayOrder;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.NetworkMode;
-
-import Interfaces.IReporter;
 import Interfaces.ITestReporter;
 
-public class Reporter implements IReporter {
+public class Reporter {
 
 	private static ExtentReports reporter = null;
 	private static ITestReporter testReporter = null;
