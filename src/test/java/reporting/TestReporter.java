@@ -1,4 +1,4 @@
-package ReporterImplementations;
+package reporting;
 
 import java.util.Date;
 import java.util.Map;
@@ -8,7 +8,7 @@ import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 import com.relevantcodes.extentreports.model.ITest;
 
-import Interfaces.ITestReporter;
+import interfaces.ITestReporter;
 
 public class TestReporter implements ITestReporter {
 

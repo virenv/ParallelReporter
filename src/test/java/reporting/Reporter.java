@@ -1,11 +1,11 @@
-package ReporterImplementations;
+package reporting;
 
 import java.util.Locale;
 
 import com.relevantcodes.extentreports.DisplayOrder;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.NetworkMode;
-import Interfaces.ITestReporter;
+import interfaces.ITestReporter;
 
 public class Reporter {
 

@@ -6,4 +6,6 @@
 .project
 *.jar
 *.iml
+*.ipr
 out/ 
+
