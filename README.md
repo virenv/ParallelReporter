@@ -22,7 +22,7 @@ To run this project, add these 3 .jar files to your classpath:
 
 ## Manual Execution
 
-This project is not implemented with Maven or Gradle but support could easily be added.
+In your IDE run configuration, run by pointing to suite file in src/test/resources/testNG.xml
 
 ### Manual Execution Using Intellij-IDEA
 
