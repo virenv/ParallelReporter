@@ -1,0 +1,32 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+
+// setup with 'gradle idea' or 'gradle eclipse'
+// run with 'gradle cleanTest test'
+
+repositories {
+    mavenLocal()
+	mavenCentral()
+}
+
+dependencies {
+    //compile 'org.slf4j:slf4j-api:1.7.21'
+	testCompile 'org.testng:testng:6.10'
+    testCompile 'com.relevantcodes:extentreports:2.41.2'
+    testCompile 'org.freemarker:freemarker:2.3.23'
+	//testCompile 'junit:junit:4.12'
+}
+
+test {
+    reports.html.destination = file("$buildDir/reports/gradle")
+    useTestNG {
+        suites 'src/test/resources/testNG.xml'
+    }
+    scanForTestClasses = false
+    testLogging {
+        showStandardStreams = true
+        exceptionFormat "full"
+        events "started", "passed", "skipped", "failed", "standardOut", "standardError"
+    }
+}
